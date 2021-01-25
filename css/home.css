@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.menu{
+    background-color: cornflowerblue;
+    padding: 15px;
+}
+div a{
+    margin: 10px;
+    font-family: sans-serif;
+     color: white;
+     text-transform: uppercase;
+     text-decoration: none;
+}
+nav{
+    background-color:rgb(151, 184, 245);
+    padding: 50px;
+    text-align: center;
+}
+.header{
+     font-family: sans-serif;
+     color: white;
+     text-transform: uppercase;
+}
+img {
+    width:20%;
+    height: 30vh;
+    border-radius: 30px;
+}
+footer{
+    padding: 20px;
+    background-color: teal;
+}
