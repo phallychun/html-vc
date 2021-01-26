@@ -3,33 +3,80 @@
     padding: 0px;
 
 }
-.menu{
-    background-color: cornflowerblue;
-    padding: 15px;
-}
-div a{
-    margin: 10px;
-    font-family: sans-serif;
-     color: white;
-     text-transform: uppercase;
-     text-decoration: none;
-}
-nav{
-    background-color:rgb(151, 184, 245);
-    padding: 50px;
+body {
+    background-image: url('../Image/technology.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+
+  .sidebar{
+    background-color: rgb(11, 51, 39);
+    height: 100vh;
+    width: 30%;
     text-align: center;
+    font-family: sans-serif;
+    color: rgb(93, 220, 252);
+    
 }
-.header{
-     font-family: sans-serif;
-     color: white;
-     text-transform: uppercase;
+h1{
+    margin: 20px;
 }
-img {
-    width:20%;
-    height: 30vh;
-    border-radius: 30px;
+.sidebar img {
+    width:50%;
+    height: 30%;
+    border-radius: 50%;
+    border:4px solid rgb(89, 211, 211);
+    margin-top: 15px;
 }
-footer{
-    padding: 20px;
-    background-color: teal;
+.containmenu{
+    background-color: rgb(4, 112, 80);
 }
+
+    .menu{
+        background-color: rgb(3, 184, 72);
+        padding: 15px;
+        clip-path: polygon(0 0, 46% 0, 53% 100%, 0 100%);
+    }
+    .menu a:hover{
+        background-color:rgb(2, 80, 32);
+        padding: 10px;
+    }
+    div a{
+        margin: 10px;
+        font-family: sans-serif;
+         color: white;
+         text-transform: uppercase;
+         text-decoration: none;
+         font-size: 15px;
+    }
+    .containpicture{
+        display: flex;
+        width: 20%;
+        height: 30vh;
+        flex-wrap: wrap;
+    }
+    .page{
+        font-family: sans-serif;
+        text-align: center;
+        padding: 20px;
+    }
+    footer{
+        background-color: rgb(39, 37, 37);
+        padding: 10vh;
+    }
+    .icon img{
+        width: 40px;
+        height:40px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       margin-left:10px;
+       float: right;
+    }
+
+
+
