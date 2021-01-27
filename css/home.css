@@ -4,7 +4,7 @@
 
 }
 body {
-    background-image: url('../Image/technology.jpg');
+    background-image: url('../Image/image4.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -12,22 +12,27 @@ body {
 
 
   .sidebar{
-    background-color: rgb(11, 51, 39);
+    background-color: rgb(11, 51, 39,0.6);
     height: 100vh;
     width: 30%;
     text-align: center;
     font-family: sans-serif;
-    color: rgb(93, 220, 252);
+    color: rgb(24, 243, 24);
     
 }
 h1{
     margin: 20px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 30px;
+}
+h3{
+    color: rgb(235, 235, 235);
 }
 .sidebar img {
     width:50%;
     height: 30%;
     border-radius: 50%;
-    border:4px solid rgb(89, 211, 211);
+    border:4px solid rgb(19, 209, 44);
     margin-top: 15px;
 }
 .containmenu{
@@ -54,7 +59,7 @@ h1{
     .containpicture{
         display: flex;
         width: 20%;
-        height: 30vh;
+        height: 20vh;
         flex-wrap: wrap;
     }
     .page{
@@ -62,6 +67,13 @@ h1{
         text-align: center;
         padding: 20px;
     }
+
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(9, 196, 71);
+    text-shadow: -4px -1px 0px rgba(17,137,157,0.41);
+}
     footer{
         background-color: rgb(39, 37, 37);
         padding: 10vh;
