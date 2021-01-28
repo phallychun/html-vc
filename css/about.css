@@ -4,12 +4,88 @@
 
 }
 body {
-    background-image: url('../Image/image1.jpg');
+    background-image: url('../Image/image4.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
   }
 
+
+  .sidebar{
+    background-color: rgb(239, 245, 243,0.787);
+    height: auto;
+    width: 30%;
+    font-family: sans-serif;
+    color: rgb(12, 12, 12);
+    
+    
+}
+form{
+    text-align: center;
+}
+form input{
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    border: none;
+}
+.submit{
+    background-color: rgb(0, 174, 255);
+    color:whitesmoke
+}
+label{
+    color:red;
+}
+ h1{
+    margin: 20px;
+    text-shadow: 4px 1px 2px rgba(0,0,0,0.59);
+    font-size: 30px;
+    color: rgb(36, 240, 17);
+}
+.siderbar h3{
+    color: rgb(24, 12, 12);
+    margin-bottom: 20px;
+    
+}
+#profile{
+    width:30%;
+    height: 30%;
+    border-radius: 50%;
+    border:2px solid rgb(19, 209, 44);
+    margin-top: 15px;
+    
+}
+nav{
+    display: flex;
+}
+.imageprofile{
+    text-align: center;
+}
+p img{
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+}
+p span{
+    margin-left: 10px;
+    font-size: 15px;
+
+    
+}
+.containicon{
+    margin: 25px;
+    padding: 10px;
+}
+.containbar{
+    background-color: rgb(255, 255, 255,0.787);
+    width: 35%;
+    height: 70%;
+    text-align: center;
+    margin: 150px;
+    padding: 30px;
+    box-shadow: 0px 0px 13px 9px rgb(3, 184, 72);
+    font-family: sans-serif;
+}
 
 .containmenu{
     background-color: rgb(4, 112, 80);
@@ -21,7 +97,7 @@ body {
         clip-path: polygon(0 0, 39% 0, 46% 100%, 0 100%);
     }
     .menu a:hover{
-        background-color:rgb(2, 80, 32);
+        background-color:rgb(64, 119, 85);
         padding: 10px;
     }
     div a{
@@ -32,18 +108,57 @@ body {
          text-decoration: none;
          font-size: 15px;
     }
-   .container{
-       background-color: rgb(255, 255, 255,0.787);
-       width: 35%;
-       height: 70%;
-       margin: 120px;
-       padding: 30px;
-       box-shadow: 0px 0px 13px 9px rgb(3, 184, 72);
+    .active{
+        background-color:rgb(64, 119, 85);
+        padding: 10px;
+    }
+    .containpicture{
+        display: flex;
+        width: 20%;
+        height: 20vh;
+        flex-wrap: wrap;
+    }
 
-   }
-   #profile{
-    width:30%;
-    height: 30%;
-    box-shadow: 0px 1px 6px 6px rgba(0,0,0,0.75);
-    
+
+.context{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:rgb(239, 245, 243,0.787);
+    padding: 50px;
+}
+.education,
+.experience,
+.happies,
+.skill,
+.personal-data,
+.reference{
+    width: 30%;
+    background-color: rgb(255, 255, 255,0.887);
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    font-family:sans-serif;
+    border-top: 15px groove  rgb(4, 112, 80);
+    margin-bottom: 50px;
+
+}
+
+footer{
+    background-color: rgb(39, 37, 37);
+    padding: 10vh;
+    color: white;
+   
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+.icon h3{
+    color: white;
+}
+hr{
+    border: 1px solid ;
 }
