@@ -3,6 +3,13 @@
     padding: 0px;
 
 }
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
 body {
     background-image: url('../Image/image4.jpg');
     background-repeat: no-repeat;
@@ -12,38 +19,30 @@ body {
 
 
   .sidebar{
-    background-color: rgb(239, 245, 243,0.787);
+    background-color: rgba(235, 240, 240, 0.887);
     height: auto;
-    width: 30%;
+    width: 70%;
     font-family: sans-serif;
     color: rgb(12, 12, 12);
-    
-    
 }
-form{
-    text-align: center;
-}
-form input{
-    border-radius: 10px;
-    outline: none;
-    padding: 5px;
-    border: none;
-}
+
 .submit{
-    background-color: rgb(0, 174, 255);
+    background: linear-gradient(99deg,#0c282c 0%, #044e2f 80%);
     color:whitesmoke
 }
-label{
-    color:red;
-}
+
+
  h1{
     margin: 20px;
     text-shadow: 4px 1px 2px rgba(0,0,0,0.59);
     font-size: 30px;
-    color: rgb(36, 240, 17);
+    color:white;
+}
+.sidebar h1{
+    color:rgb(7, 48, 48);
 }
 .siderbar h3{
-    color: rgb(24, 12, 12);
+    color: rgb(14, 134, 44);
     margin-bottom: 20px;
     
 }
@@ -51,7 +50,7 @@ label{
     width:30%;
     height: 30%;
     border-radius: 50%;
-    border:2px solid rgb(19, 209, 44);
+    border:2px solid rgb(19, 75, 85);
     margin-top: 15px;
     
 }
@@ -59,12 +58,12 @@ nav{
     display: flex;
 }
 .imageprofile{
-    text-align: center;
+    text-align: center; 
 }
 p img{
     width: 15px;
     height: 15px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 p span{
     margin-left: 10px;
@@ -76,28 +75,48 @@ p span{
     margin: 25px;
     padding: 10px;
 }
-.containbar{
-    background-color: rgb(255, 255, 255,0.787);
-    width: 35%;
-    height: 70%;
-    text-align: center;
-    margin: 150px;
+#containtext{
+    background: linear-gradient(179deg,#293529 0%, #054b59 80%);
+    width: 80%;
+    height: 50vh;
+    margin: 120px ;
     padding: 30px;
-    box-shadow: 0px 0px 13px 9px rgb(3, 184, 72);
-    font-family: sans-serif;
+    margin-left: 22%; 
+    border-top: 5px double #6e6d6d;
+    border-right: 5px double#6e6d6d;
+    border-bottom: 5px double #6e6d6d;
+    border-left: 5px double#6e6d6d;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family:cursive
+       
+   }
+#containtext p{
+   margin-top: 10px;
+}
+
+.about{
+    background-color:teal ;
+    width: 30%;
+    padding: 15px;
+   border-radius: 20px;
+   margin-left: 32%;
+   margin-top: 30px;
+
 }
 
 .containmenu{
-    background-color: rgb(4, 112, 80);
+    background: linear-gradient(99deg,#0a444c 0%, #677570 80%);
 }
 
     .menu{
-        background-color: rgb(3, 184, 72);
+        background: linear-gradient(99deg,#0c282c 0%, #044e2f 80%);
         padding: 15px;
         clip-path: polygon(0 0, 39% 0, 46% 100%, 0 100%);
     }
     .menu a:hover{
-        background-color:rgb(64, 119, 85);
+        background-color:teal;
         padding: 10px;
     }
     div a{
@@ -109,9 +128,22 @@ p span{
          font-size: 15px;
     }
     .active{
-        background-color:rgb(64, 119, 85);
+        background-color: teal;
         padding: 10px;
     }
+
+    #download{
+        background-color: cornflowerblue;
+        padding: 15px;
+        width: auto;
+        border-radius: 5px;
+        float: right;
+        margin-bottom: 10px;
+
+    }
+
+
+    
     .containpicture{
         display: flex;
         width: 20%;
@@ -124,9 +156,15 @@ p span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color:rgb(239, 245, 243,0.787);
+    background-color:rgba(235, 240, 240, 0.887);
     padding: 50px;
 }
+.context h1{
+    color: rgb(50, 243, 11);
+  
+    
+}
+
 .education,
 .experience,
 .happies,
@@ -134,7 +172,7 @@ p span{
 .personal-data,
 .reference{
     width: 30%;
-    background-color: rgb(255, 255, 255,0.887);
+    background-color: rgb(253, 245, 245);
     text-align: center;
     padding: 30px;
     margin-top: 50px;
@@ -142,6 +180,14 @@ p span{
     border-top: 15px groove  rgb(4, 112, 80);
     margin-bottom: 50px;
 
+}
+.contact{
+    background-color: teal;
+    padding: 10px;
+    width: 50%;
+    margin-left: 23%;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 footer{
@@ -161,4 +207,39 @@ footer{
 }
 hr{
     border: 1px solid ;
+}
+@media(max-width:700px){
+    body{
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: small;
+
+    }
+    .containmenu a{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size: smaller;
+    }
+    .containtext{
+        width: auto;
+        height: auto;
+        
+        
+
+    }
+    .about{
+        width: 70%;
+        margin: auto;
+        padding:5px;
+        font-size: smaller;
+
+    }
+    #download{
+        font-size: smaller;
+    }
+    
+    
+
 }
